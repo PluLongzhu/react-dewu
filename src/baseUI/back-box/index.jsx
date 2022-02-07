@@ -1,6 +1,6 @@
 import React from "react"
 import styled from "styled-components"
-import style from '../../assets/Global-style';
+import style from '../../assets/global-style';
 
 export const BackBoxContainer = styled.div`
   padding: 10px 0;

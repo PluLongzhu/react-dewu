@@ -1,6 +1,6 @@
 import React from 'react';
 import styled, {keyframes} from 'styled-components';
-import style from '../../assets/Global-style'
+import style from '../../assets/global-style'
 
 const dance = keyframes`
     0%, 40%, 100%{
@@ -36,7 +36,7 @@ const Loading = styled.div`
     }
     >div:nth-child(5) {
       animation-delay: -0.2s;
-    } 
+    }
 
 `
 
@@ -52,5 +52,5 @@ function LoadingV2() {
     </Loading>
   );
 }
- 
+
 export default React.memo(LoadingV2);

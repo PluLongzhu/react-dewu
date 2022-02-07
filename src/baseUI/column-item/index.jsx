@@ -2,7 +2,7 @@ import React, { useState, useRef, useEffect, memo } from 'react';
 import styled from'styled-components';
 import Scroll from '../scroll/index'
 import { PropTypes } from 'prop-types';
-import style from '../../assets/Global-style';
+import style from '../../assets/global-style';
 
 const List = styled.div`
   display: flex;
@@ -33,7 +33,7 @@ function column(props) {
     const Category = useRef (null);
     const { list, oldVal } = props;
     const { handleClick } = props;
-    
+
     useEffect (() => {
         let categoryDOM = Category.current;
         let tagElems = categoryDOM.querySelectorAll("span");
@@ -43,7 +43,7 @@ function column(props) {
         });
         categoryDOM.style.Height = `${totalHeight}px`;
       }, []);
-    
+
     return (
         <Scroll direction={"vertical"}>
         <div ref={Category}>
@@ -51,9 +51,9 @@ function column(props) {
             {
             list.map ((item) => {
                 return (
-                <ListItem 
+                <ListItem
                     key={item.key}
-                    className={`${oldVal === item.key ? 'selected': ''}`} 
+                    className={`${oldVal === item.key ? 'selected': ''}`}
                     onClick={() => handleClick (item.key)}>
                     {item.name}
                 </ListItem>

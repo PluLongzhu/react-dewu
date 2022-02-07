@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import style from '../../assets/Global-style';
+import style from '../../assets/global-style';
 
 export const Layout = styled.div`
     width: 100vw;
@@ -13,7 +13,7 @@ export const Layout = styled.div`
         width: 100%;
         background: ${style["background-color"]};
     }
-` 
+`
 export const PersonInfo = styled.div`
     top: 0;
     left: 0;
@@ -54,7 +54,7 @@ export const OroderBody = styled.div`
     .order-body {
         display: grid;
         grid-template-rows: repeat(6 60px);
-        .order-item {   
+        .order-item {
             height: 60px;
             width: 100%;
             text-align: center;

@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import style from '../../assets/Global-style';
+import style from '../../assets/global-style';
 
 export const ShopCardContainer = styled.div`
   position: fixed;
@@ -44,7 +44,7 @@ export const ShopCardContainer = styled.div`
     }
     .icon-delete {
       position: absolute;
-      right: 10px;  
+      right: 10px;
       top: 15px;
     }
   }

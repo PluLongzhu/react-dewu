@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import style from '../../assets/Global-style';
+import style from '../../assets/global-style';
 
 export const SliderContainer = styled.div`
   position: relative;
@@ -16,11 +16,11 @@ export const SliderContainer = styled.div`
       .slider-detail_title {
         margin-left: 8px;
         font-size: ${style["font-size-m"]};
-        overflow:hidden; 
+        overflow:hidden;
         text-overflow:ellipsis;
-        display:-webkit-box; 
+        display:-webkit-box;
         -webkit-box-orient:vertical;
-        -webkit-line-clamp:2; 
+        -webkit-line-clamp:2;
       }
       .slider-detail_price {
         margin-top: 8px;

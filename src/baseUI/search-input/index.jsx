@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import style from '../../assets/Global-style'
+import style from '../../assets/global-style'
 import { useNavigate } from 'react-router-dom';
 
 const Inputstyle = styled.div`
